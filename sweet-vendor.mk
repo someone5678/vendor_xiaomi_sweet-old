@@ -225,6 +225,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/chre/ambient.so:$(TARGET_COPY_OUT_VENDOR)/etc/chre/ambient.so \
     vendor/xiaomi/sweet/proprietary/vendor/etc/chre/ambient_micro.napp_header:$(TARGET_COPY_OUT_VENDOR)/etc/chre/ambient_micro.napp_header \
     vendor/xiaomi/sweet/proprietary/vendor/etc/chre/ambient_micro.so:$(TARGET_COPY_OUT_VENDOR)/etc/chre/ambient_micro.so \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/columbus.napp_header:$(TARGET_COPY_OUT_VENDOR)/etc/chre/columbus.napp_header \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/columbus.so:$(TARGET_COPY_OUT_VENDOR)/etc/chre/columbus.so \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/columbus_lite.napp_header:$(TARGET_COPY_OUT_VENDOR)/etc/chre/columbus_lite.napp_header \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/columbus_lite.so:$(TARGET_COPY_OUT_VENDOR)/etc/chre/columbus_lite.so \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/gesture.napp_header:$(TARGET_COPY_OUT_VENDOR)/etc/chre/gesture.napp_header \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/gesture.so:$(TARGET_COPY_OUT_VENDOR)/etc/chre/gesture.so \
     vendor/xiaomi/sweet/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sweet/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/sweet/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -299,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/vidhance_calibration_64m:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_64m \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/sweet/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
     vendor/xiaomi/sweet/proprietary/vendor/etc/cit_param_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/cit_param_config.json \
     vendor/xiaomi/sweet/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
