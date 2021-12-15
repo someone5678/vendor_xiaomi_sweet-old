@@ -1,7 +1,0 @@
-{ "source_dir": "/vendor/etc/chre",
-  "nanoapps": [
-    "ambient",
-    "columbus",
-    "columbus_lite",
-    "gesture"
-]}
