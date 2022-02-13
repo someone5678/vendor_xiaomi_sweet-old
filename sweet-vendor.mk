@@ -1756,8 +1756,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     FS_FpFactory \
     IWlanService \
-    IconShapeOverlay \
-    NotchOverlay \
     SensorTestTool \
     TimeService \
     adreno_graphics_driver \
