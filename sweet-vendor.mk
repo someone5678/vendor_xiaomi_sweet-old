@@ -212,21 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
     vendor/xiaomi/sweet/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/sweet/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_configs_stock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs_stock.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_platform_info_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_qrd.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration_mi.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes_mi.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_product_strategies_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies_mi.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_engine_stream_volumes_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes_mi.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/CFR_para_MARCO_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_MARCO_V01.bin \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_V01.bin \
@@ -308,12 +293,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/device_features/sweet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/sweet.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/device_sar_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_sar_config.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
     vendor/xiaomi/sweet/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
     vendor/xiaomi/sweet/proprietary/vendor/etc/fstab.default:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.default \
@@ -323,10 +305,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/ftm_test_config_sm6150-tavil-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_sm6150-tavil-snd-card \
     vendor/xiaomi/sweet/proprietary/vendor/etc/ftm_test_config_sm6150-wcd9375qrd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_sm6150-wcd9375qrd-snd-card \
     vendor/xiaomi/sweet/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
     vendor/xiaomi/sweet/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/sweet/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
     vendor/xiaomi/sweet/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
     vendor/xiaomi/sweet/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
@@ -406,16 +386,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/mi_us_sweep.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mi_us_sweep.wav \
     vendor/xiaomi/sweet/proprietary/vendor/etc/mi_us_whitenoise.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mi_us_whitenoise.wav \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/mixer_paths_wcd9375.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9375.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/noise_table_64_64.rgb:$(TARGET_COPY_OUT_VENDOR)/etc/noise_table_64_64.rgb \
     vendor/xiaomi/sweet/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
@@ -423,20 +399,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Dual_s6e3ha3_amoled_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_s6e3ha3_amoled_cmd_mode_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/rcv.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv.wav \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/sweet/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/sweet/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -494,13 +459,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/sound_trigger_mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_qrd.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/sweet/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/xiaomi/sweet/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/thermal-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-class0.conf \
@@ -838,8 +798,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/xiaomi/sweet/proprietary/vendor/lib/libqcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/libqcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilFramework.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
